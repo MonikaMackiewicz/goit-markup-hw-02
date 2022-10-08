@@ -1,0 +1,133 @@
+body {
+  font-family: "Roboto", sans-serif;
+  color: #212121;
+}
+
+.menu-nav-link {
+  text-decoration: none;
+  color: inherit;
+  font-size: 14px;
+  line-height: 1.17;
+}
+
+.menu-nav-link:hover,
+.menu-nav-link:focus {
+  color: #2196f3;
+}
+
+.section-1 {
+  background: #2f303a;
+}
+
+.h1 {
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-transform: uppercase;
+
+  color: #ffffff;
+}
+
+.button {
+  background: #2196f3;
+  color: #ffffff;
+
+  font-size: 16px;
+  line-height: 1.86;
+  cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+  color: #2196f3;
+}
+
+.link {
+  color: #757575;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 1.17;
+}
+
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+
+.link:visited {
+  color: #212121;
+}
+
+.h3 {
+  font-size: 14px;
+  line-height: 16px;
+  text-transform: uppercase;
+}
+
+.lorem {
+  font-size: 14px;
+  line-height: 1.71;
+
+  color: #757575;
+}
+
+.h2-font {
+  font-size: 36px;
+  line-height: 42px;
+}
+
+.section-4 {
+  background: #f5f4fa;
+}
+
+.footer {
+  background-color: #2f303a;
+}
+
+.logo {
+  font-family: "Raleway";
+  font-size: 26px;
+  line-height: 1.17;
+  text-decoration: none;
+  color: #2196f3;
+}
+
+.logo-1 {
+  color: #212121;
+}
+
+.logo-2 {
+  color: #ffffff;
+}
+
+.logo:visited {
+  color: #2196f3;
+}
+.address {
+  font-size: 14px;
+  line-height: 1.71;
+  font-style: normal;
+  color: #ffffff;
+}
+
+.portfolio-button {
+  background: #f5f4fa;
+  cursor: pointer;
+}
+
+.portfolio-button:hover,
+.portfolio-button:focus {
+  background: #2196f3;
+  color: #ffffff;
+}
+
+.portfolio-h3 {
+  font-size: 18px;
+  line-height: 2;
+}
+
+.portfolio-h3 > p {
+  font-size: 16px;
+  line-height: 1.86;
+  color: #757575;
+}
