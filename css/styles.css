@@ -1,18 +1,24 @@
-body {
-  font-family: "Roboto", sans-serif;
-  color: #212121;
+:root {
+  --main-color: #212121;
+  --accent-color: #2196f3;
+  --less-i-tex: #757575;
 }
 
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+}
 .menu-nav-link {
   text-decoration: none;
-  color: inherit;
+  color: var(--main-color);
   font-size: 14px;
   line-height: 1.17;
+  font-weight: 500;
 }
 
 .menu-nav-link:hover,
 .menu-nav-link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .section-1 {
@@ -20,18 +26,19 @@ body {
 }
 
 .h1 {
+  font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-
+  font-family: inherit;
   text-transform: uppercase;
-
   color: #ffffff;
 }
 
 .button {
-  background: #2196f3;
+  background: var(--accent-color);
   color: #ffffff;
-
+  font-family: "Roboto", sans-serif;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.86;
   cursor: pointer;
@@ -39,45 +46,62 @@ body {
 
 .button:hover,
 .button:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .link {
-  color: #757575;
+  color: var(--less-i-tex);
   text-decoration: none;
   font-size: 14px;
   line-height: 1.17;
+  font-weight: 500;
 }
 
 .link:hover,
 .link:focus {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .link:visited {
-  color: #212121;
+  color: var(--less-i-tex);
 }
 
 .h3 {
+  font-weight: 700;
   font-size: 14px;
-  line-height: 16px;
+  line-height: 1.14;
   text-transform: uppercase;
+  color: var(--main-color);
 }
 
 .lorem {
   font-size: 14px;
   line-height: 1.71;
-
-  color: #757575;
+  color: var(--less-i-tex);
 }
 
 .h2-font {
   font-size: 36px;
-  line-height: 42px;
+  line-height: 1.17;
+  font-weight: 700;
+  color: var(--main-color);
 }
 
 .section-4 {
   background: #f5f4fa;
+}
+
+.we {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--main-color);
+}
+
+.we-work {
+  font-size: 16px;
+  line-height: 1.19;
+  color: var(--less-i-tex);
 }
 
 .footer {
@@ -86,14 +110,15 @@ body {
 
 .logo {
   font-family: "Raleway";
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.17;
   text-decoration: none;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .logo-1 {
-  color: #212121;
+  color: var(--main-color);
 }
 
 .logo-2 {
@@ -101,7 +126,7 @@ body {
 }
 
 .logo:visited {
-  color: #2196f3;
+  color: var(--accent-color);
 }
 .address {
   font-size: 14px;
@@ -117,17 +142,19 @@ body {
 
 .portfolio-button:hover,
 .portfolio-button:focus {
-  background: #2196f3;
+  background: var(--accent-color);
   color: #ffffff;
 }
 
 .portfolio-h3 {
+  font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  color: var(--main-color);
 }
 
-.portfolio-h3 > p {
+.portfolio-p {
   font-size: 16px;
   line-height: 1.86;
-  color: #757575;
+  color: var(--less-i-tex);
 }
